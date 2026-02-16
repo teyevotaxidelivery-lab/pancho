@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RQXXWLLGCB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RQXXWLLGCB');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEYEVO Delivery - Rivas y Tola</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Orbitron:wght@700;900&display=swap');
+        body { font-family: 'Poppins', sans-serif; }
+       
+        .teyevo-font {
+            font-family: 'Orbitron', sans-serif;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px rgba(255,215,0,0.5);
+        }
+       
+        .hero-bg {
+            background: #FFFFFF;
+            color: #000000;
+        }
+       
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+       
+        .pulse-btn {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+       
+        .service-btn {
+            transition: all 0.3s ease;
+        }
+        .service-btn:hover {
+            transform: scale(1.08);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+        }
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 35px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+        }
+        .service-title {
+            font-size: 1.5rem;
+        }
+        @media (max-width: 768px) {
+            .service-title {
+                font-size: 1.3rem;
+            }
+        }
+        /* Estilo tabla precios ULTIMATE */
+        .table-precios th {
+            background: linear-gradient(to right, #FFD700, #FFA500);
+            color: #000;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.1rem;
+        }
+        .table-precios td {
+            background: #f9f9f9;
+            font-weight: 500;
+        }
+        .table-precios tr:nth-child(even) td {
+            background: #fff;
+        }
+        .table-precios {
+            min-width: 500px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Hero optimizado -->
+    <header class="hero-bg py-8 md:py-12 text-center shadow-lg">
+        <div class="container mx-auto px-4">
+            <img src="https://i.imgur.com/XVbSvRj.png" alt="Logo TEYEVO" class="w-80 md:max-w-xl mx-auto mb-4">
+            <h1 class="text-4xl md:text-5xl font-bold mb-3 teyevo-font text-gray-900">Todos tus mandados<br>desde tu WhatsApp</h1>
+            <p class="text-xl md:text-2xl font-semibold mb-6 text-gray-800">Delivery rápido y seguro en Tola y todo el departamento de Rivas</p>
+            <a href="https://wa.me/50585314095?text=¡Hola%20TEYEVO!%20Quiero%20hacer%20un%20pedido" class="bg-green-500 hover:bg-green-600 text-white text-2xl font-bold py-5 px-10 rounded-full shadow-2xl pulse-btn inline-flex items-center gap-3 card-hover">
+                <i class="fab fa-whatsapp text-3xl"></i> Pedir por WhatsApp ahora
+            </a>
+        </div>
+    </header>
+
+    <!-- Cómo funciona -->
+    <section class="container mx-auto px-4 py-10">
+        <h2 class="text-3xl font-bold text-center mb-10 text-gray-800 teyevo-font">¿Cómo funciona TEYEVO?</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-2xl shadow-xl p-8 text-center card-hover">
+                <div class="bg-orange-100 w-20 h-20 rounded-full mx-auto mb-6 flex items-center justify-center">
+                    <i class="fab fa-whatsapp text-4xl text-orange-600"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">1. Escríbenos</h3>
+                <p class="text-gray-600">Envíanos un mensaje con tu ubicación exacta</p>
+            </div>
+            <div class="bg-white rounded-2xl shadow-xl p-8 text-center card-hover">
+                <div class="bg-yellow-100 w-20 h-20 rounded-full mx-auto mb-6 flex items-center justify-center">
+                    <i class="fas fa-shopping-bag text-4xl text-yellow-600"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">2. Cuéntanos qué necesitas</h3>
+                <p class="text-gray-600">Comida, farmacia, mercado, paquetes o cualquier mandado</p>
+            </div>
+            <div class="bg-white rounded-2xl shadow-xl p-8 text-center card-hover">
+                <div class="bg-green-100 w-20 h-20 rounded-full mx-auto mb-6 flex items-center justify-center">
+                    <i class="fas fa-motorcycle text-4xl text-green-600"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">3. Te lo llevamos rápido y seguro</h3>
+                <p class="text-gray-600">Con motorizado identificado y seguimiento en tiempo real</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ideas por horario del día -->
+    <section class="container mx-auto px-4 py-10 bg-orange-50">
+        <h2 class="text-3xl font-bold text-center mb-10 text-gray-800 teyevo-font">Ideas para cada momento del día</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-2xl shadow-xl p-8 text-center card-hover">
+                <div class="text-6xl mb-6">🌅</div>
+                <h3 class="text-2xl font-bold mb-4 text-orange-600">Desayunos y mañanas</h3>
+                <p class="text-gray-700 mb-6">Café fresco, panadería, desayunos completos, repuestos o medicinas tempranas</p>
+                <a href="https://wa.me/50585314095?text=¡Hola%20TEYEVO!%20Quiero%20un%20desayuno%20o%20mandado%20de%20mañana" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full inline-flex items-center gap-2">
+                    <i class="fab fa-whatsapp"></i> Pedir ahora
+                </a>
+            </div>
+            <div class="bg-white rounded-2xl shadow-xl p-8 text-center card-hover">
+                <div class="text-6xl mb-6">☀️</div>
+                <h3 class="text-2xl font-bold mb-4 text-yellow-600">Almuerzos y tardes</h3>
+                <p class="text-gray-700 mb-6">Comida caliente, refrescos, compras del mercado, partes mecánicas o paquetes</p>
+                <a href="https://wa.me/50585314095?text=¡Hola%20TEYEVO!%20Quiero%20un%20almuerzo%20o%20mandado%20de%20tarde" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full inline-flex items-center gap-2">
+                    <i class="fab fa-whatsapp"></i> Pedir ahora
+                </a>
+            </div>
+            <div class="bg-white rounded-2xl shadow-xl p-8 text-center card-hover">
+                <div class="text-6xl mb-6">🌙</div>
+                <h3 class="text-2xl font-bold mb-4 text-blue-600">Cenas y noches</h3>
+                <p class="text-gray-700 mb-6">Cenas ricas, farmacia de turno, bebidas o envíos urgentes con mototaxi seguro</p>
+                <a href="https://wa.me/50585314095?text=¡Hola%20TEYEVO!%20Quiero%20una%20cena%20o%20mandado%20de%20noche" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full inline-flex items-center gap-2">
+                    <i class="fab fa-whatsapp"></i> Pedir ahora
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Qué podemos llevarte? (Mercado) -->
+    <section class="container mx-auto px-4 py-10 bg-gray-50">
+        <h2 class="text-3xl font-bold text-center mb-10 text-gray-800 teyevo-font">¿Qué podemos llevarte?</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+            <a href="https://wa.me/50585314095?text=¡Hola%20TEYEVO!%20Quiero%20pedir%20comida" class="bg-white rounded-3xl shadow-2xl p-10 text-center service-btn flex flex-col items-center justify-center">
+                <div class="text-7xl mb-6">🍔</div>
+                <p class="service-title font-bold text-gray-800">Comida</p>
+                <p class="text-gray-600 mt-3">De tus restaurantes favoritos</p>
+            </a>
+            <a href="https://wa.me/50585314095?text=¡Hola%20TEYEVO!%20Necesito%20medicinas%20de%20farmacia" class="bg-white rounded-3xl shadow-2xl p-10 text-center service-btn flex flex-col items-center justify-center">
+                <div class="text-7xl mb-6">💊</div>
+                <p class="service-title font-bold text-gray-800">Farmacia</p>
+                <p class="text-gray-600 mt-3">Medicinas y productos de salud</p>
+            </a>
+            <a href="https://wa.me/50585314095?text=¡Hola%20TEYEVO!%20Quiero%20hacer%20compras%20del%20mercado" class="bg-white rounded-3xl shadow-2xl p-10 text-center service-btn flex flex-col items-center justify-center">
+                <div class="text-7xl mb-6">🛒</div>
+                <p class="service-title font-bold text-gray-800">Mercado</p>
+                <p class="text-gray-600 mt-3">Todo lo de tu lista de compras</p>
+            </a>
+            <a href="https://wa.me/50585314095?text=¡Hola%20TEYEVO!%20Tengo%20un%20mandado%20especial" class="bg-white rounded-3xl shadow-2xl p-10 text-center service-btn flex flex-col items-center justify-center">
+                <div class="text-7xl mb-6">📦</div>
+                <p class="service-title font-bold text-gray-800">Mandados</p>
+                <p class="text-gray-600 mt-3">Cualquier encargo que necesites</p>
+            </a>
+            <a href="https://wa.me/50585314095?text=¡Hola%20TEYEVO!%20Quiero%20traer%20un%20paquete%20desde%20Managua" class="bg-white rounded-3xl shadow-2xl p-10 text-center service-btn flex flex-col items-center justify-center">
+                <div class="text-7xl mb-6">🚚</div>
+                <p class="service-title font-bold text-gray-800">Paquetes desde Managua</p>
+                <p class="text-gray-600 mt-3">Te lo traemos hasta tu puerta</p>
+            </a>
+            <a href="https://wa.me/50585314095?text=¡Hola%20TEYEVO!%20Necesito%20un%20mototaxi" class="bg-white rounded-3xl shadow-2xl p-10 text-center service-btn flex flex-col items-center justify-center">
+                <div class="text-7xl mb-6">🛵</div>
+                <p class="service-title font-bold text-gray-800">Mototaxi rápido</p>
+                <p class="text-gray-600 mt-3">Traslado seguro y veloz</p>
+            </a>
+        </div>
+        <p class="text-center text-2xl font-bold mt-12 text-orange-600">¡Toca el servicio que necesitas y te atendemos al instante!</p>
+    </section>
+
+    <!-- Tu pedido siempre seguro -->
+    <section class="container mx-auto px-4 py-10">
+        <h2 class="text-3xl font-bold text-center mb-10 text-gray-800 teyevo-font">Tu pedido siempre seguro</h2>
+        <div class="bg-white rounded-3xl shadow-2xl p-8 max-w-4xl mx-auto">
+            <ul class="space-y-6 text-lg grid md:grid-cols-1 gap-6">
+                <li class="flex flex-col md:flex-row items-start gap-4"><i class="fas fa-map-marker-alt text-3xl text-blue-500 flex-shrink-0"></i> <div><strong>Ubicación exacta obligatoria</strong> – Para que el motorizado llegue sin problemas</div></li>
+                <li class="flex flex-col md:flex-row items-start gap-4"><i class="fas fa-user-check text-3xl text-green-500 flex-shrink-0"></i> <div><strong>Verificación rápida</strong> – Foto de perfil o del lugar para mayor seguridad</div></li>
+                <li class="flex flex-col md:flex-row items-start gap-4"><i class="fas fa-money-bill-wave text-3xl text-yellow-600 flex-shrink-0"></i> <div><strong>Pago adelantado opcional</strong> – Si prefieres, con devolución total si no se cumple</div></li>
+                <li class="flex flex-col md:flex-row items-start gap-4"><i class="fas fa-shield-alt text-3xl text-purple-500 flex-shrink-0"></i> <div><strong>No entregamos en zonas inseguras</strong> – Tu protección es lo primero</div></li>
+                <li class="flex flex-col md:flex-row items-start gap-4"><i class="fas fa-smile text-3xl text-orange-500 flex-shrink-0"></i> <div><strong>Trato respetuoso siempre</strong> – Cordial de nuestra parte y esperamos lo mismo</div></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Motorizados profesionales (casco imagen) -->
+    <section class="container mx-auto px-4 py-10 bg-gray-50">
+        <h2 class="text-3xl font-bold text-center mb-10 text-gray-800 teyevo-font">Motorizados profesionales y confiables</h2>
+        <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div class="bg-white rounded-2xl shadow-xl p-8 text-center card-hover">
+                <i class="fas fa-user-tie text-6xl text-orange-600 mb-6"></i>
+                <h3 class="text-xl font-bold mb-3">Uniforme oficial</h3>
+                <p class="text-gray-600">Identificación clara y motocicleta en perfecto estado</p>
+            </div>
+            <div class="bg-white rounded-2xl shadow-xl p-8 text-center card-hover">
+                <i class="fas fa-location-arrow text-6xl text-green-600 mb-6"></i>
+                <h3 class="text-xl font-bold mb-3">Ubicación en tiempo real</h3>
+                <p class="text-gray-600">Compartida por WhatsApp al aceptar tu pedido</p>
+            </div>
+            <div class="bg-white rounded-2xl shadow-xl p-8 text-center card-hover">
+                <img src="https://img.freepik.com/vector-premium/ilustracion-vectorial-icono-casco-dibujos-animados_1322553-77946.jpg" alt="Casco de motocicleta" class="w-32 mx-auto mb-6">
+                <h3 class="text-xl font-bold mb-3">Casco de seguridad</h3>
+                <p class="text-gray-600">Casco extra para pasajero y chaleco reflectivo</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tarifas claras ULTIMATE – TABLA SIMPLIFICADA Y COMPLETA -->
+    <section class="container mx-auto px-4 py-10">
+        <h2 class="text-3xl font-bold text-center mb-10 text-gray-800 teyevo-font">Tarifas claras y justas – ¡Los más bajos de la zona!</h2>
+        <div class="bg-white rounded-3xl shadow-2xl p-8 overflow-x-auto">
+            <table class="table-precios w-full text-center border-collapse">
+                <thead>
+                    <tr>
+                        <th class="py-4 px-6 border border-gray-300 rounded-tl-lg">Lugar</th>
+                        <th class="py-4 px-6 border border-gray-300">Día</th>
+                        <th class="py-4 px-6 border border-gray-300 rounded-tr-lg">Noche (8 PM a cierre)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Apompuá</td>
+                        <td class="py-4 px-6 border border-gray-300">170</td>
+                        <td class="py-4 px-6 border border-gray-300">200</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Belén</td>
+                        <td class="py-4 px-6 border border-gray-300">170</td>
+                        <td class="py-4 px-6 border border-gray-300">190</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Buenos Aires</td>
+                        <td class="py-4 px-6 border border-gray-300">80/100</td>
+                        <td class="py-4 px-6 border border-gray-300">120</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Callejón López</td>
+                        <td class="py-4 px-6 border border-gray-300">140</td>
+                        <td class="py-4 px-6 border border-gray-300">160</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Chocolata</td>
+                        <td class="py-4 px-6 border border-gray-300">150</td>
+                        <td class="py-4 px-6 border border-gray-300">150</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Conchagua</td>
+                        <td class="py-4 px-6 border border-gray-300">50</td>
+                        <td class="py-4 px-6 border border-gray-300">50</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Cruz de España</td>
+                        <td class="py-4 px-6 border border-gray-300">60</td>
+                        <td class="py-4 px-6 border border-gray-300">60</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">CS. Mani Rener</td>
+                        <td class="py-4 px-6 border border-gray-300">40</td>
+                        <td class="py-4 px-6 border border-gray-300">40</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Denis Sánchez</td>
+                        <td class="py-4 px-6 border border-gray-300">60</td>
+                        <td class="py-4 px-6 border border-gray-300">60</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Desmotadora</td>
+                        <td class="py-4 px-6 border border-gray-300">60</td>
+                        <td class="py-4 px-6 border border-gray-300">60</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">El Coco</td>
+                        <td class="py-4 px-6 border border-gray-300">120</td>
+                        <td class="py-4 px-6 border border-gray-300">140</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">El Empalme</td>
+                        <td class="py-4 px-6 border border-gray-300">170</td>
+                        <td class="py-4 px-6 border border-gray-300">-</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">El Palmar</td>
+                        <td class="py-4 px-6 border border-gray-300">160</td>
+                        <td class="py-4 px-6 border border-gray-300">200</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Galeano</td>
+                        <td class="py-4 px-6 border border-gray-300">50/60</td>
+                        <td class="py-4 px-6 border border-gray-300">50/60</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Hospital</td>
+                        <td class="py-4 px-6 border border-gray-300">50</td>
+                        <td class="py-4 px-6 border border-gray-300">50</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">La Virgen</td>
+                        <td class="py-4 px-6 border border-gray-300">150</td>
+                        <td class="py-4 px-6 border border-gray-300">150</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Las Piedras</td>
+                        <td class="py-4 px-6 border border-gray-300">80</td>
+                        <td class="py-4 px-6 border border-gray-300">90</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Los Cerros</td>
+                        <td class="py-4 px-6 border border-gray-300">70</td>
+                        <td class="py-4 px-6 border border-gray-300">80</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Los Juzgados</td>
+                        <td class="py-4 px-6 border border-gray-300">80</td>
+                        <td class="py-4 px-6 border border-gray-300">80</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Los Pinos</td>
+                        <td class="py-4 px-6 border border-gray-300">50</td>
+                        <td class="py-4 px-6 border border-gray-300">50</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Los Postes</td>
+                        <td class="py-4 px-6 border border-gray-300">50</td>
+                        <td class="py-4 px-6 border border-gray-300">50</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Los Robles</td>
+                        <td class="py-4 px-6 border border-gray-300">60</td>
+                        <td class="py-4 px-6 border border-gray-300">60</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Monte San Juan</td>
+                        <td class="py-4 px-6 border border-gray-300">50/60</td>
+                        <td class="py-4 px-6 border border-gray-300">50/60</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Palenque</td>
+                        <td class="py-4 px-6 border border-gray-300">50</td>
+                        <td class="py-4 px-6 border border-gray-300">50</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Pedro Joaquín</td>
+                        <td class="py-4 px-6 border border-gray-300">50</td>
+                        <td class="py-4 px-6 border border-gray-300">50</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Popoyo</td>
+                        <td class="py-4 px-6 border border-gray-300">55</td>
+                        <td class="py-4 px-6 border border-gray-300">60</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Potosí</td>
+                        <td class="py-4 px-6 border border-gray-300">140</td>
+                        <td class="py-4 px-6 border border-gray-300">160</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Pueblo</td>
+                        <td class="py-4 px-6 border border-gray-300">50/60</td>
+                        <td class="py-4 px-6 border border-gray-300">50/60</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Puerto de Playa</td>
+                        <td class="py-4 px-6 border border-gray-300">80</td>
+                        <td class="py-4 px-6 border border-gray-300">100</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Puertas del Sol</td>
+                        <td class="py-4 px-6 border border-gray-300">60</td>
+                        <td class="py-4 px-6 border border-gray-300">60</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Rivas</td>
+                        <td class="py-4 px-6 border border-gray-300">40</td>
+                        <td class="py-4 px-6 border border-gray-300">40</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">San Jorge</td>
+                        <td class="py-4 px-6 border border-gray-300">70</td>
+                        <td class="py-4 px-6 border border-gray-300">70</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">San Juan del Sur</td>
+                        <td class="py-4 px-6 border border-gray-300">330</td>
+                        <td class="py-4 px-6 border border-gray-300">-</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Tola</td>
+                        <td class="py-4 px-6 border border-gray-300">170</td>
+                        <td class="py-4 px-6 border border-gray-300">210</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Valparaíso</td>
+                        <td class="py-4 px-6 border border-gray-300">50</td>
+                        <td class="py-4 px-6 border border-gray-300">50</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-6 border border-gray-300 font-bold">Zona Franca</td>
+                        <td class="py-4 px-6 border border-gray-300">60</td>
+                        <td class="py-4 px-6 border border-gray-300">60</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="text-center mt-8 text-lg text-gray-700">
+                <strong>Nota:</strong> Precios en córdobas desde centro de Tola/Rivas. +10-15 extra por cada local visitado o entrega adicional. Horario nocturno +20%. ¡Pregunta por rutas especiales o descuentos!
+            </p>
+            <p class="text-center mt-4 text-2xl font-bold text-orange-600">¡Los precios más bajos y transparentes de la zona – Mejor que la competencia!</p>
+        </div>
+    </section>
+
+    <!-- Catálogo -->
+    <section class="container mx-auto px-4 py-10 bg-green-50">
+        <div class="bg-white rounded-2xl shadow-2xl p-10 max-w-4xl mx-auto text-center card-hover">
+            <i class="fas fa-shopping-cart text-6xl text-green-600 mb-6"></i>
+            <h2 class="text-3xl font-bold mb-6 text-gray-800 teyevo-font">Explora nuestro catálogo en WhatsApp Business</h2>
+            <p class="text-lg text-gray-600 mb-8">Mira fotos, descripciones y precios</p>
+            <a href="https://wa.me/c/50585314095" class="bg-green-500 hover:bg-green-600 text-white text-xl font-bold py-4 px-8 rounded-full shadow-xl inline-flex items-center gap-3 pulse-btn">
+                <i class="fab fa-whatsapp text-2xl"></i> Abrir catálogo ahora
+            </a>
+        </div>
+    </section>
+
+    <!-- Unirse al equipo -->
+    <section class="container mx-auto px-4 py-12 md:py-16 bg-gradient-to-r from-orange-100 to-yellow-100">
+        <div class="bg-white rounded-3xl shadow-2xl p-10 max-w-5xl mx-auto text-center card-hover">
+            <img src="https://i.imgur.com/XVbSvRj.png" alt="Logo TEYEVO" class="w-40 md:w-48 mx-auto mb-6">
+            <h2 class="text-3xl md:text-5xl font-bold mb-6 teyevo-font text-gray-900">¿Quieres unirte al equipo TEYEVO?</h2>
+            <p class="text-lg md:text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
+                Buscamos motorizados responsables y puntuales.<br class="hidden md:block">
+                ¡Forma parte del delivery más rápido de Rivas y Tola!
+            </p>
+            <a href="https://wa.me/50584258693?text=¡Hola!%20Quiero%20unirme%20al%20equipo%20TEYEVO%20como%20motorizado" class="bg-green-500 hover:bg-green-600 text-white text-xl md:text-2xl font-bold py-5 px-10 rounded-full shadow-2xl pulse-btn inline-flex items-center gap-4 card-hover">
+                <i class="fas fa-motorcycle text-3xl"></i> Contáctanos ahora
+            </a>
+        </div>
+    </section>
+
+    <!-- Síguenos y anúnciate -->
+    <section class="container mx-auto px-4 py-10 bg-gray-800 text-white">
+        <h2 class="text-3xl font-bold text-center mb-10 teyevo-font">Síguenos y anúnciate con nosotros</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-8 max-w-6xl mx-auto">
+            <a href="https://whatsapp.com/channel/0029Vb7eOq4BFLgdbQgBVK3c" target="_blank" class="bg-green-600 hover:bg-green-700 rounded-2xl shadow-xl p-8 text-center card-hover flex flex-col items-center justify-center gap-4">
+                <i class="fab fa-whatsapp text-6xl"></i>
+                <h3 class="text-xl md:text-2xl font-bold">Canal WhatsApp</h3>
+                <p class="text-lg">Promociones y anuncios</p>
+                <span class="bg-white text-green-600 px-4 py-2 rounded-full font-bold">Unirme</span>
+            </a>
+            <a href="https://facebook.com/teyevodelivery" target="_blank" class="bg-blue-600 hover:bg-blue-700 rounded-2xl shadow-xl p-8 text-center card-hover flex flex-col items-center justify-center gap-4">
+                <i class="fab fa-facebook text-6xl"></i>
+                <h3 class="text-xl md:text-2xl font-bold">Facebook</h3>
+                <p class="text-lg">Fotos y reseñas</p>
+                <span class="bg-white text-blue-600 px-4 py-2 rounded-full font-bold">Visitar</span>
+            </a>
+            <a href="https://www.tiktok.com/@influencer_nica" target="_blank" class="bg-black hover:bg-gray-900 rounded-2xl shadow-xl p-8 text-center card-hover flex flex-col items-center justify-center gap-4">
+                <i class="fab fa-tiktok text-6xl"></i>
+                <h3 class="text-xl md:text-2xl font-bold">TikTok</h3>
+                <p class="text-sm md:text-lg break-words">influencer nica</p>
+                <span class="bg-white text-black px-4 py-2 rounded-full font-bold">Ver videos</span>
+            </a>
+            <a href="https://wa.me/50584258693?text=¡Hola%20TEYEVO!%20Quiero%20anunciarme%20y%20aumentar%20mis%20ventas" target="_blank" class="bg-purple-600 hover:bg-purple-700 rounded-2xl shadow-xl p-8 text-center card-hover flex flex-col items-center justify-center gap-4">
+                <i class="fas fa-bullhorn text-6xl"></i>
+                <h3 class="text-xl md:text-2xl font-bold">Anúnciate con nosotros</h3>
+                <p class="text-lg">Aumenta tus ventas llegando a cientos de clientes</p>
+                <span class="bg-white text-purple-600 px-4 py-2 rounded-full font-bold">Contáctanos</span>
+            </a>
+            <a href="https://www.panchorides.com" target="_blank" class="bg-orange-600 hover:bg-orange-700 rounded-2xl shadow-xl p-8 text-center card-hover flex flex-col items-center justify-center gap-4">
+                <i class="fas fa-taxi text-6xl"></i>
+                <h3 class="text-xl md:text-2xl font-bold">Pancho Rides</h3>
+                <p class="text-lg">Taxi y transporte turístico</p>
+                <span class="bg-white text-orange-600 px-4 py-2 rounded-full font-bold">Visitar sitio</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-10">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-lg mb-4">
+                <i class="fas fa-map-marker-alt text-orange-500 mr-2"></i>
+                <strong>Dirección TEYEVO:</strong><br>
+                De la estación de policía de Tola,<br>
+                2 cuadras al oeste y 2 al sur
+            </p>
+            <p class="text-sm text-gray-400 mb-4">
+                © 2025 TEYEVO Delivery. Todos los derechos reservados.
+            </p>
+            <p class="text-sm text-gray-400">
+                Diseñado por
+                <a href="https://wa.me/50555022722" class="text-orange-500 hover:text-orange-300 font-semibold">
+                    JWCHRISRUIZ <i class="fab fa-whatsapp ml-1"></i>
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Botón flotante WhatsApp -->
+    <a href="https://wa.me/50585314095?text=¡Hola%20TEYEVO!%20Quiero%20hacer%20un%20pedido" class="whatsapp-float flex items-center justify-center pulse-btn">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</body>
+</html>
